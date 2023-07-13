@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktaste_buddy"]=self["webpackChunktaste_buddy"]||[]).push([[466],{466:(e,t,u)=>{u.r(t),u.d(t,{default:()=>c});var n=u(6252);function a(e,t,u,a,o,r){const s=(0,n.up)("IonRouterOutlet"),l=(0,n.up)("IonPage");return(0,n.wg)(),(0,n.j4)(l,null,{default:(0,n.w5)((()=>[(0,n.Wm)(s)])),_:1})}var o=u(3566),r=(0,n.aZ)({title:"RecipePage",components:{IonRouterOutlet:o.jP,IonPage:o._i}}),s=u(3744);const l=(0,s.Z)(r,[["render",a]]);var c=l}}]);
+//# sourceMappingURL=466.92bab175.js.map
