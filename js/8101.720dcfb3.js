@@ -1,0 +1,8 @@
+"use strict";(self["webpackChunktaste_buddy"]=self["webpackChunktaste_buddy"]||[]).push([[8101,8591],{8591:(n,t,i)=>{i.r(t),i.d(t,{g:()=>a});var e=i(6109),a=function(){if(void 0!==e.w)return e.w.Capacitor};
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */},8101:(n,t,i)=>{i.r(t),i.d(t,{I:()=>e,a:()=>s,b:()=>l,c:()=>u,d:()=>f,h:()=>g});var e,a,o=i(8591);
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */(function(n){n["Heavy"]="HEAVY",n["Medium"]="MEDIUM",n["Light"]="LIGHT"})(e||(e={})),function(n){n["Success"]="SUCCESS",n["Warning"]="WARNING",n["Error"]="ERROR"}(a||(a={}));var c={getEngine:function(){var n=(0,o.g)();if(null===n||void 0===n?void 0:n.isPluginAvailable("Haptics"))return n.Plugins.Haptics},available:function(){var n=this.getEngine();if(!n)return!1;var t=(0,o.g)();return"web"!==(null===t||void 0===t?void 0:t.getPlatform())||"undefined"!==typeof navigator&&void 0!==navigator.vibrate},impact:function(n){var t=this.getEngine();t&&t.impact({style:n.style})},notification:function(n){var t=this.getEngine();t&&t.notification({type:n.type})},selection:function(){this.impact({style:e.Light})},selectionStart:function(){var n=this.getEngine();n&&n.selectionStart()},selectionChanged:function(){var n=this.getEngine();n&&n.selectionChanged()},selectionEnd:function(){var n=this.getEngine();n&&n.selectionEnd()}},r=function(){return c.available()},u=function(){r()&&c.selection()},s=function(){r()&&c.selectionStart()},l=function(){r()&&c.selectionChanged()},g=function(){r()&&c.selectionEnd()},f=function(n){r()&&c.impact(n)}}}]);
+//# sourceMappingURL=8101.720dcfb3.js.map

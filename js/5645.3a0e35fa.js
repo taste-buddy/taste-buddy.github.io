@@ -1,0 +1,1 @@
+(self["webpackChunktaste_buddy"]=self["webpackChunktaste_buddy"]||[]).push([[5645],{5645:()=>{}}]);
